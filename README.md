@@ -1,7 +1,4 @@
 # Docker Compose setup for CKAN
-
-
-
 * [Overview](#overview)
 * [Installing Docker](#installing-docker)
 * [docker compose vs docker-compose](#docker-compose-vs-docker-compose)
