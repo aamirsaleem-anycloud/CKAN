@@ -3,8 +3,9 @@ pipeline {
 
     stages {
         stage('Build') {
-            steps {
-                echo 'Building..'
+             steps {
+                sh 'npm install http-server'
+                sh 'http-server -p 8080'
             }
         }
         stage('Test') {
