@@ -1,7 +1,7 @@
-pipeline {
+peline {
     agent any
  tools {
-        nodejs 'node-16.13.1'
+        nodejs 'node-19.8.1'
     }
     stages {
           stage('Cleanup Workspace') {
