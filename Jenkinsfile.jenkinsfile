@@ -16,7 +16,7 @@ pipeline {
              steps {
               // sh 'npm run build'
                 sh 'npm install -g http-server'
-                sh 'http-server dist -p 3000'
+                sh 'http-server dist -p 3000  -s -i -c-1 index.html'
             }
         }
         stage('Test') {
