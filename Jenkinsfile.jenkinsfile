@@ -17,7 +17,7 @@ pipeline {
               // sh 'npm run build'
                 sh 'npm install -g http-server'
                 sh 'cd .'
-                sh 'http-server index.html -p 3000'
+                sh 'http-server index.html -p 3000 &'
             }
         }
         stage('Test') {
